@@ -4,17 +4,16 @@ import Home from "./components/Home";
 import Cart from "./components/Cart";
 import { useState } from "react";
 import Favourite from "./components/Favourite";
-import SearchItem from "./components/SearchItem";
 
 function App() {
   const [cart, setCart] = useState([]);
   const [favorites, setFavorites] = useState([]);
-  const [search, setSearch] = useState("");
+
   return (
     <>
       <BrowserRouter>
-        <Header cart={cart} favorites={favorites} serach={search} />
-        <SearchItem search={search} setSearch={setSearch} />
+        <Header cart={cart} favorites={favorites} />
+
         <div className="conatiner">
           <Routes>
             <Route
@@ -25,7 +24,6 @@ function App() {
                   setCart={setCart}
                   favorites={favorites}
                   setFavorites={setFavorites}
-                  search={search}
                 />
               }
             />

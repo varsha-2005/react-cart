@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Product.css";
 const Product = ({ product, cart, setCart, favorites, setFavorites }) => {
   const addToCart = (product) => {
