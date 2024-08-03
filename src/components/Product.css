@@ -26,7 +26,7 @@
 }
 .details button{
     margin-top: 10px;
-    padding: 6px 55px;
+    padding: 10px 5px;
     background-color: #22adc3;
     color: #fff;
     border: none;
@@ -43,3 +43,20 @@
 .btnRemove{
     background-color: red !important;
 }
+.button{
+    display: flex;
+    flex-direction: column;
+}
+  
+  .buttons button {
+    padding: 6px 10px;
+    background-color: #22adc3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .buttons button:hover {
+    background-color: #09d5f4;
+  }

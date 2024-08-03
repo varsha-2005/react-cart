@@ -1,6 +1,10 @@
 import React from 'react'
 import './Favorite.css'
-const Favourite = ({favorites}) => {
+const Favourite = ({favorites,setFavorites,cart,setCart}) => {
+    const removeFavorite = (id) => {
+        setFavorites(favorites.filter((f) => f.id !== id));
+    };
+
   return (
     <>  
         <h1 className='favorites-heading'>Favorite Products</h1>
@@ -14,7 +18,7 @@ const Favourite = ({favorites}) => {
                             <h3>{product.name}</h3>
                             <p>Price Rs : {product.amt}</p>
                         </div>
-                        
+                        <button className='btnRemove' onClick={() => removeFavorite(product.id)}>Remove from favorites</button>
                     </div>
                 ))}
             </div>

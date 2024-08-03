@@ -41,7 +41,7 @@ const Product = ({ product, cart, setCart, favorites, setFavorites }) => {
         <button onClick={() => addToCart(product)}>Add to Cart</button>
         <button onClick={toggleFavorite}>
           {favorites.some((f) => f.id === product.id)
-            ? "Remove from Favorites"
+            ? "Remove Favorite"
             : "Add to Favorites"}
         </button>
       </div>
