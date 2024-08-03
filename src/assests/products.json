@@ -1,0 +1,219 @@
+[
+    {
+      "id": 1,
+      "name": "Pepperoni Pizza",
+      "amt": 12.99,
+      "shop": "Pizza Palace",
+      "ftype": "Pizza",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 2,
+      "name": "Veggie Burger",
+      "amt": 9.49,
+      "shop": "Burger Barn",
+      "ftype": "Burger",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 3,
+      "name": "Greek Salad",
+      "amt": 7.99,
+      "shop": "Salad Stop",
+      "ftype": "Salad",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 4,
+      "name": "Fettuccine Alfredo",
+      "amt": 14.99,
+      "shop": "Pasta House",
+      "ftype": "Pasta",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 5,
+      "name": "Dragon Roll",
+      "amt": 18.99,
+      "shop": "Sushi World",
+      "ftype": "Sushi",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 6,
+      "name": "Fish Tacos",
+      "amt": 8.99,
+      "shop": "Taco Town",
+      "ftype": "Tacos",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 7,
+      "name": "Tiramisu",
+      "amt": 5.99,
+      "shop": "Dessert Delights",
+      "ftype": "Dessert",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 8,
+      "name": "Iced Coffee",
+      "amt": 3.49,
+      "shop": "Cafe Coffee",
+      "ftype": "Drink",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 9,
+      "name": "Margherita Pizza",
+      "amt": 11.99,
+      "shop": "Pizza Palace",
+      "ftype": "Pizza",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 10,
+      "name": "Chicken Caesar Salad",
+      "amt": 10.99,
+      "shop": "Salad Stop",
+      "ftype": "Salad",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 11,
+      "name": "Beef Tacos",
+      "amt": 9.49,
+      "shop": "Taco Town",
+      "ftype": "Tacos",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 12,
+      "name": "Spaghetti Carbonara",
+      "amt": 13.49,
+      "shop": "Pasta House",
+      "ftype": "Pasta",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 13,
+      "name": "California Roll",
+      "amt": 17.99,
+      "shop": "Sushi World",
+      "ftype": "Sushi",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 14,
+      "name": "Pancakes",
+      "amt": 6.99,
+      "shop": "Breakfast Cafe",
+      "ftype": "Breakfast",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 15,
+      "name": "Chocolate Cake",
+      "amt": 4.99,
+      "shop": "Dessert Delights",
+      "ftype": "Dessert",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 16,
+      "name": "Chicken Wings",
+      "amt": 11.99,
+      "shop": "Wing Zone",
+      "ftype": "Appetizer",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 17,
+      "name": "Club Sandwich",
+      "amt": 8.49,
+      "shop": "Deli Delight",
+      "ftype": "Sandwich",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 18,
+      "name": "Lemonade",
+      "amt": 2.99,
+      "shop": "Cafe Coffee",
+      "ftype": "Drink",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 19,
+      "name": "Lasagna",
+      "amt": 15.99,
+      "shop": "Pasta House",
+      "ftype": "Pasta",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 20,
+      "name": "Falafel Wrap",
+      "amt": 7.99,
+      "shop": "Wrap It Up",
+      "ftype": "Wrap",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 21,
+      "name": "Stuffed Peppers",
+      "amt": 12.49,
+      "shop": "Healthy Eats",
+      "ftype": "Vegetarian",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 22,
+      "name": "Buffalo Chicken Pizza",
+      "amt": 13.49,
+      "shop": "Pizza Palace",
+      "ftype": "Pizza",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 23,
+      "name": "Cheeseburger",
+      "amt": 10.99,
+      "shop": "Burger Barn",
+      "ftype": "Burger",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 24,
+      "name": "Avocado Toast",
+      "amt": 6.49,
+      "shop": "Breakfast Cafe",
+      "ftype": "Breakfast",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "latest": "No"
+    }
+  ]
+  

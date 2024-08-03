@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import {BrowserRouter, Route, Routes} from "react-router-dom"
+import Home from "./components/Home";
+import Cart from "./components/Cart";
+import { useState } from "react";
+import Favourite from "./components/Favourite";
 
 function App() {
+  const[cart,setCart] = useState([])
+  const[favorites,setFavorites] = useState([])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+    <BrowserRouter>
+        <Header cart={cart} favorites={favorites}/>
+        <div className="conatiner">
+          <Routes>
+            <Route path="/" element={<Home cart={cart} setCart={setCart} favorites={favorites} setFavorites={setFavorites}/>} />
+            <Route path="/Cart" element={<Cart cart={cart} setCart={setCart}/>} />
+            <Route path='/Favorites' element={<Favourite favorites={favorites} setFavorites={setFavorites} />} />
+          </Routes>
+        </div>
+    </BrowserRouter>
+   </>
   );
 }
 
