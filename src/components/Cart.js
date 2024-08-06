@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Cart.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Cart = ({ cart, setCart }) => {
   const [total, setTotal] = useState(0);
@@ -38,21 +38,25 @@ const Cart = ({ cart, setCart }) => {
       <div className="cart-container">
         {cart.map((product) => (
           <div className="cart-product" key={product.id}>
-            <div className="img">
-              <img src={product.pic} alt={product.name} />
+            <div className="fav">
+              <div className="img">
+                <img src={product.pic} alt={product.name} />
+              </div>
+              <div className="cart-product-details">
+                <h3>{product.name}</h3>
+                <h3>Quantity: {product.quantity}</h3>
+                <p>Price Rs : {product.amt}</p>
+              </div>
             </div>
-            <div className="cart-product-details">
-              <h3>{product.name}</h3>
-              <h3>Quantity: {product.quantity}</h3>
-              <p>Price Rs : {product.amt}</p>
+            <div className="button-flex">
+              <button className="btnRemove" onClick={() => removeCart(product)}>
+                <FontAwesomeIcon icon={faTrashAlt} />
+              </button>
             </div>
-            <button className="btnRemove" onClick={() => removeCart(product)}>
-            <FontAwesomeIcon icon={faTrashAlt} />
-            </button>
           </div>
         ))}
       </div>
-      <h2 className="cart-amt">Total Amount = Rs: {total}</h2>
+      <h2 className="cart-amt">Total Amount : $ {total}</h2>
     </>
   );
 };
