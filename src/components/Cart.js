@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Cart.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Cart = ({ cart, setCart }) => {
   const [total, setTotal] = useState(0);
@@ -45,7 +47,7 @@ const Cart = ({ cart, setCart }) => {
               <p>Price Rs : {product.amt}</p>
             </div>
             <button className="btnRemove" onClick={() => removeCart(product)}>
-              Remove from Cart
+            <FontAwesomeIcon icon={faTrashAlt} />
             </button>
           </div>
         ))}

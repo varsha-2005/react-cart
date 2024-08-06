@@ -34,3 +34,30 @@
     font-weight: 900;
     text-align: center;
 }
+.navbar img{
+    height: 30px;
+    width: 30px;
+}
+.navbar-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.rotating-icon{
+    color: #8B4513;
+    font-size: 25px;
+}
+@keyframes design {
+    from {
+        transform: rotatey(0deg);
+    }
+    to {
+        transform: rotatey(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .rotating-icon {
+        animation: design infinite 5s;
+    }
+}

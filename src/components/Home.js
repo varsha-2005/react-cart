@@ -30,7 +30,7 @@ const Home = ({ cart, setCart, favorites, setFavorites }) => {
   return (
     <>
       <form className="searchForm" onSubmit={(e) => e.preventDefault()}>
-        <label htmlFor="search">Search Items</label>
+        <label htmlFor="search"></label>
         <input
           id="search"
           role="searchbox"
@@ -39,12 +39,14 @@ const Home = ({ cart, setCart, favorites, setFavorites }) => {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
-        <label htmlFor="sort">Sort By:</label>
+        <label htmlFor="sort"></label>
         <select
           id="sort"
           value={sortCriteria}
+          className="select-container"
           onChange={(e) => setSortCriteria(e.target.value)}
         >
+          <option value="">Sort By:</option>
           <option value="">None</option>
           <option value="priceLowToHigh">Price: Low to High</option>
           <option value="priceHighToLow">Price: High to Low</option>
