@@ -45,7 +45,7 @@ const Cart = ({ cart, setCart }) => {
               <div className="cart-product-details">
                 <h3>{product.name}</h3>
                 <h3>Quantity: {product.quantity}</h3>
-                <p>Price Rs : {product.amt}</p>
+                <p>Price  : ${product.amt}</p>
               </div>
             </div>
             <div className="button-flex">

@@ -51,6 +51,12 @@
   color: #8b4513;
   font-size: 25px;
 }
+.nav-links.show{
+    /* background-color: red; */
+}
+.nav-links.show li{
+  /* margin-top: 1px; */
+}
 
 @keyframes design {
   from {
@@ -71,6 +77,9 @@
     display: none;
   }
   .menu-toggle {
+    display: block;
+  }
+  .nav-links.show{
     display: block;
   }
 }

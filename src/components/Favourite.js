@@ -20,7 +20,7 @@ const Favourite = ({ favorites, setFavorites }) => {
               </div>
               <div className="favorites-product-details">
                 <h3>{product.name}</h3>
-                <p>Price Rs : {product.amt}</p>
+                <p>Price:${product.amt}</p>
               </div>
             </div>
             <div className="button-flex">

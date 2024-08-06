@@ -5,7 +5,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBurger } from "@fortawesome/free-solid-svg-icons";
 
 const Header = ({ cart = [], favorites = [] }) => {
-  const toggleMenu = () => {};
+  const toggleMenu = () => {
+    setMenuOpen((prevMenuOpen) => !prevMenuOpen)
+  };
+  const [MenuOpen, setMenuOpen] = useState(false)
 
   return (
     <nav>
@@ -14,9 +17,9 @@ const Header = ({ cart = [], favorites = [] }) => {
           <span className="rotating-icon">
             <FontAwesomeIcon icon={faBurger} />
           </span>
-          <div className="logo">Food Cart</div>
+          <div className="logo">Hungry Wheels</div>
         </div>
-        <ul className="nav-link">
+        <ul className={`nav-links ${MenuOpen ? 'show' : ''}`}>
           <li>
             <Link to={"/"}>Home</Link>
           </li>
