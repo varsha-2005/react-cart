@@ -15,8 +15,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 100;
-  background-color: #fff;
+  backdrop-filter: blur(30px);
 }
 .product .img {
   width: 100%;
@@ -97,14 +96,14 @@
   background-color: #09d5f4;
 }
 
-.button-flex {
+.button-flexx {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   margin: 0 auto;
 }
-.button-flex button {
+.button-flexx button {
   width: 50%;
 }
 .additional-info button {

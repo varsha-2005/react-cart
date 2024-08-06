@@ -12,17 +12,17 @@
   font-size: 28px;
   font-family: fantasy;
 }
-.navbar ul {
+.nav-flex {
   display: inline-flex;
   gap: 20px;
 }
 .menu-toggle {
   display: none;
 }
-.navbar ul li {
+.nav-flex li {
   list-style-type: none;
 }
-.navbar ul li a {
+.nav-flex li a {
   color: #fefefe;
   text-decoration: none;
 }
@@ -51,7 +51,27 @@
   color: #8b4513;
   font-size: 25px;
 }
+.nav-link {
+  height: auto;
+  padding: 12px;
+  animation: open 3s;
+  width: 100%;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  z-index: 1;
+  background-color: #34bdeb;
+}
+.nav-link li {
+  margin-left: 30px;
+  list-style: none;
+}
+.nav-link li a {
+  text-decoration: none;
+  color: #fefefe;
+}
 @keyframes design {
   from {
     transform: rotatey(0deg);
@@ -72,5 +92,18 @@
   }
   .menu-toggle {
     display: block;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .nav-link {
+    animation: open 1s;
+  }
+}
+@keyframes open {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
   }
 }
